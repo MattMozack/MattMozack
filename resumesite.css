@@ -1,0 +1,130 @@
+header, main, nav, footer, section, figure, header{ display: block; }
+#AboutMe #Education #Experience {display: inline-table;}
+
+body 	{  background-image: url("resumebackground.jpg");
+		   background-repeat: no-repeat;
+		   background-image-position: center;
+		   color: #0D2454;
+		   font-family: Verdana, arial, sans-serif; 
+		   background-size: cover;}
+
+main 	{ padding: 20px 20px 20px 20px; 
+		  margin-left: 0px;
+		  background-color: #FFFFFF; 
+
+		}
+
+
+#wrapper { width: 70%;
+		   min-width: 960px;
+		   max-width: 2048px;
+		   margin: auto;
+		   background-position: center;
+		   box-shadow: 3px 3px 3px 3px #2E0000; }
+
+header 	{	width: 70%;
+		   	min-width: 960px;
+		   	max-width: 2048px;
+		   	margin: auto;
+		   	background-position: center;
+			color: #FFFFFF;
+			padding: 0px 0px 0px 0px;
+}
+
+h1		{   width: 35%;
+			color: #FFFFFF;
+			background-position: left;
+			text-align: center;}
+
+header h2 {text-align: center;}
+
+nav  	{ 
+		  width: 80%;
+		  background-position: left;
+		  font-size: 2.0em; 
+		  text-align: left;
+		  
+		  } 
+
+nav a { color: #FFFFFF;
+	 	background-color: #0D2454;
+		text-decoration-line: none;
+		font-size: 0.75em;
+		box-shadow: 3px 0px 9px 0px #FFFFFF; 
+	 	padding-left: 0px;
+		padding-right: 50px;
+		text-align: center;}
+
+
+h2		{ background-color: #0D2454;
+			color: #FFFFFF; }
+
+h3		{ font-weight: bold;}
+
+h4 		{ 	padding-top: 0%;
+			font-size: 1.0em;
+			margin-left: 3%; }
+
+#AboutMe {width: 50%;
+			margin-left:25%;
+			text-align: center;
+			background-color: #FFFFFF;
+			padding: 20px 0px 20px 0px;
+			box-shadow: 3px 3px 3px 3px #2E0000;
+		}
+
+#Education{width: 60%;
+			text-align: left;
+			background-color: #FFFFFF;
+			margin-left: 20%;
+			padding-bottom:20px;
+			box-shadow: 3px 3px 3px 3px #2E0000;
+			}
+
+#Experience {width: 60%;
+			background-color: #FFFFFF;
+			margin-left: 20%;
+			text-align: left;
+			padding-bottom: 20px;
+			box-shadow: 3px 3px 3px 3px #2E0000;}
+
+section	{ 
+		  margin-left: 20%;
+		  overflow: auto;
+		 }
+
+dt 		{ font-weight: bold; }
+
+main ul	{ list-style-image: url(marker.gif);
+		  list-style-position: inside; }
+
+footer 	{ background-color: #0D2454;
+		  color: #000000; 
+		  font-size: 1.0em;
+		  text-align: right;
+		  font-style: italic;
+		  padding: 25px;
+		  }
+
+footer a { color: #FFFFFF; }
+
+label { float: left;
+		display: block;
+		text-align: left;
+		width: 120px;
+		padding-right: 5px;	}
+
+#Cprojects { width: 80%;
+			 padding: 20px 20px 20px 20px; 
+			 margin-left: 0px;
+			 background-color: #FFFFFF; }
+
+#Pyprojects{ width: 80%;
+			 padding: 20px 20px 20px 20px; 
+			 margin-left: 0px;
+			 background-color: #FFFFFF; }
+
+#Htmlprojects{ width: 80%;
+			   padding: 20px 20px 20px 20px; 
+			   margin-left: 0px;
+			   background-color: #FFFFFF; }
